@@ -5,7 +5,7 @@
 
 	$paginate = new Paginate([
 		'total'					=>	'100',
-		'number_per_page'		=>	'20',
+		'npp'					=>	'20',
 		'lrmpn'					=>	'3', 
 		'selector'				=>	'page',
 		'previous'				=>	'<li><a href="%page">&laquo;</a></li>',
